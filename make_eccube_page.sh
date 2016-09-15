@@ -70,8 +70,6 @@ class $classname extends LC_Page_Ex
     public function process()
     {
         parent::process();
-        \$this->action();
-        \$this->sendResponse();
     }
     public function action()
     {
